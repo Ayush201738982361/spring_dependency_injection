@@ -1,0 +1,10 @@
+package org.example;
+
+public class Laptop implements Computer {
+    public Laptop(){
+        System.out.println("Laptop constructor!");
+    }
+    public void compiling(){
+        System.out.println("Compiling in laptop!!!");
+    }
+}
